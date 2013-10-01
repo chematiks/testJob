@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bookkeeping" representedClassName="Bookkeeping" parentEntity="Staff" syncable="YES">
+        <attribute name="dinnerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seatNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeBookkeeping" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Direction" representedClassName="Direction" parentEntity="Staff" syncable="YES">
+        <attribute name="businessHours" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Staff" representedClassName="" syncable="YES">
+        <attribute name="index" attributeType="Integer 16" indexed="YES" syncable="YES"/>
+        <attribute name="nameSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salary" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Worker" representedClassName="Worker" parentEntity="Staff" syncable="YES">
+        <attribute name="dinnerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seatNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookkeeping" positionX="-164" positionY="239" width="128" height="88"/>
+        <element name="Direction" positionX="-110" positionY="143" width="128" height="58"/>
+        <element name="Staff" positionX="-387" positionY="132" width="182" height="88"/>
+        <element name="Worker" positionX="-351" positionY="233" width="128" height="73"/>
+    </elements>
+</model>
